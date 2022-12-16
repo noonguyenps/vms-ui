@@ -1,36 +1,10 @@
 import React from "react";
 import { useEffect, useState, useRef } from "react";
-import EditRoundedIcon from "@mui/icons-material/EditRounded";
-import WallpaperIcon from "@mui/icons-material/Wallpaper";
-import CloseIcon from "@mui/icons-material/Close";
-import ImageUploading from "react-images-uploading";
-import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
-import DeleteIcon from "@mui/icons-material/Delete";
 import {
   Stack,
-  Grid,
   Button,
   Typography,
-  TextField,
-  Box,
-  MenuItem,
-  FormControl,
-  Select,
-  InputLabel,
-  InputBase,
   Avatar,
-  ListItemText,
-  RadioGroup,
-  Radio,
-  FormControlLabel,
-  hexToRgb,
-  Modal,
-  IconButton,
-  Paper,
-  CircularProgress,
-  Divider,
-  Badge,
-  ClickAwayListener,
 } from "@mui/material";
 import { toast } from "react-toastify";
 import { styled } from '@mui/material/styles';
