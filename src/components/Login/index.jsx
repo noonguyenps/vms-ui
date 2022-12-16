@@ -33,7 +33,6 @@ function Login(props) {
   const [wrongPass, setWrongPass] = useState(false);
 
   const [loading, setLoading] = useState(false);
-  const CartItems = useSelector(state => state.cart.items)
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 

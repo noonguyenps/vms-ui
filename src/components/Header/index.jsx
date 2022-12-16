@@ -194,7 +194,7 @@ function Header() {
                       alignItems="center" className="header__cart">
                 <Stack><img src={user.avatar} /></Stack>
                 <Button
-                  href = "/customer/homepage"
+                  href = "/user"
                   sx={{ color: "white" }}>
                   <Typography sx={{ fontSize: "13px" }}>Quản lý tài khoản</Typography>
                 </Button>

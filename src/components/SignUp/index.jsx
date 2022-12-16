@@ -3,25 +3,15 @@ import React, { useEffect, useState } from "react";
 
 import apiAuth from "../../apis/apiAuth";
 
-import { ErrorInput, ErrorAfterSubmit } from "../ErrorHelper";
-
 import {
   Stack,
   IconButton,
   Button,
   TextField,
-  Input,
   Typography,
 } from "@mui/material";
 
 import CloseIcon from "@mui/icons-material/Close";
-import Visibility from "@mui/icons-material/Visibility";
-import VisibilityOff from "@mui/icons-material/VisibilityOff";
-import InputAdornment from "@mui/material/InputAdornment";
-import InputLabel from "@mui/material/InputLabel";
-import FormControl from "@mui/material/FormControl";
-import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
-import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 
 import {toast} from 'react-toastify'
 
